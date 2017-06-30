@@ -23,6 +23,7 @@ import java.util.Map;
 
 /**
  * 二维码扫一扫
+ * 
  * @author leaderliang
  */
 public final class CaptureActivity extends AppCompatActivity implements
