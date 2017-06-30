@@ -1,18 +1,3 @@
-/*
- * Copyright (C) 2008 ZXing authors
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.android.zxing.myapplication;
 
 import android.app.AlertDialog;
@@ -38,22 +23,22 @@ import java.util.Map;
 
 /**
  * 二维码扫一扫
+ * @author leaderliang
  */
 public final class CaptureActivity extends AppCompatActivity implements
         QRCodeReaderView.OnQRCodeReadListener {
 
-    private static final long VIBRATE_DURATION = 200L;
-
     private static final String TAG = CaptureActivity.class.getSimpleName();
 
+    private static final long VIBRATE_DURATION = 200L;
+
     private QRCodeReaderView mydecoderview;
+
     private ImageView scanLine;
 
     private ImageView mFlash;
-    private LinearLayout ll_left;
-    private Button tv_right;
+
     private CustomDialog errorDialog;
-    private boolean isEnter = false;
 
     @Override
     public void onCreate(Bundle data) {
@@ -63,23 +48,6 @@ public final class CaptureActivity extends AppCompatActivity implements
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_qr_scan);
         initView();
-
-        mydecoderview = (QRCodeReaderView) findViewById(R.id.qrdecoderview);
-        mydecoderview.setOnQRCodeReadListener(this);
-        scanLine = (ImageView) findViewById(R.id.capture_scan_line);
-
-        mFlash = (ImageView) findViewById(R.id.capture_flash);
-
-
-        TranslateAnimation animation = new TranslateAnimation(
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.95f);
-        animation.setDuration(2500);
-        animation.setRepeatCount(-1);
-        animation.setRepeatMode(Animation.RESTART);
-        scanLine.startAnimation(animation);
 
     }
 
@@ -119,7 +87,6 @@ public final class CaptureActivity extends AppCompatActivity implements
     @Override
     protected void onResume() {
         super.onResume();
-        isEnter = false;
         mydecoderview.getCameraManager().startPreview();
     }
 
@@ -130,14 +97,23 @@ public final class CaptureActivity extends AppCompatActivity implements
     }
 
     private void initView() {
-        ll_left = (LinearLayout) findViewById(R.id.ll_left);
-        ll_left.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
-        tv_right = (Button) findViewById(R.id.tv_right);
+
+        mydecoderview = (QRCodeReaderView) findViewById(R.id.qrdecoderview);
+        mydecoderview.setOnQRCodeReadListener(this);
+        scanLine = (ImageView) findViewById(R.id.capture_scan_line);
+
+        mFlash = (ImageView) findViewById(R.id.capture_flash);
+
+
+        TranslateAnimation animation = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.95f);
+        animation.setDuration(2500);
+        animation.setRepeatCount(-1);
+        animation.setRepeatMode(Animation.RESTART);
+        scanLine.startAnimation(animation);
 
     }
 
