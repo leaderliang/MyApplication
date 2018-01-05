@@ -3,7 +3,6 @@ package com.example.liangyanqiao.myapplication;
 import android.Manifest;
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
@@ -37,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    //        android.permission.WRITE_CONTACTS
+//        android.permission.WRITE_CONTACTS
 //        android.permission.CALL_PHONE
 //        android.permission.READ_CALENDAR
 //        android.permission.CAMERA

@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidPermission/AndroidPermission.iml" filepath="$PROJECT_DIR$/AndroidPermission/AndroidPermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/BottomSheet/BottomSheet.iml" filepath="$PROJECT_DIR$/BottomSheet/BottomSheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" filepath="$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Material Design/Material Design.iml" filepath="$PROJECT_DIR$/Material Design/Material Design.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinaLogin/SinaLogin.iml" filepath="$PROJECT_DIR$/SinaLogin/SinaLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoCompress/VideoCompress.iml" filepath="$PROJECT_DIR$/VideoCompress/VideoCompress.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
