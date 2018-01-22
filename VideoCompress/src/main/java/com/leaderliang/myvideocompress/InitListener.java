@@ -1,7 +1,9 @@
 package com.leaderliang.myvideocompress;
 
 /**
- * Created by karan on 13/2/15.
+ *
+ * @author karan
+ * @date 13/2/15
  */
 public interface InitListener {
     void onLoadSuccess();

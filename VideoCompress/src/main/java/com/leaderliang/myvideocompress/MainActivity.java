@@ -27,10 +27,14 @@ public class MainActivity extends AppCompatActivity {
     private ScrollView mScrollView;
     private Compressor mCompressor;
 
-    private String currentInputVideoPath = "/mnt/sdcard/in.mp4";
-    private String currentOutputVideoPath = "/mnt/sdcard/out.mp4";
+    private String currentInputVideoPath = "/mnt/sdcard/love.mp4";
+    private String currentOutputVideoPath = "/mnt/sdcard/other.mp4";
     String cmd = "-y -i " + currentInputVideoPath + " -strict -2 -vcodec libx264 -preset ultrafast " +
             "-crf 24 -acodec aac -ar 44100 -ac 2 -b:a 96k -s 480x320 -aspect 16:9 " + currentOutputVideoPath;
+
+//    String cmd = "-i " + currentInputVideoPath + " -vcodec h264 -preset fast -crf 28 -y -acodec libmp3lame -ab 128k " + currentOutputVideoPath;
+
+//    String cmd = " -i %@ -vcodec mpeg4 -b:v 1500K -y %@ " + currentInputVideoPath + " "+ currentOutputVideoPath;
     private static final Handler handler = new Handler();
     /**
      * 视频时长 s
@@ -93,6 +97,18 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    public void stopCompressOrder(View view){
+        mCompressor.ffmpeg.killRunningProcesses();
+
+    }
+
+
+    public void getCompressOrderState(View view){
+        Toast.makeText(this, "命令执行状态"+ mCompressor.ffmpeg.isFFmpegCommandRunning(), Toast.LENGTH_SHORT).show();
+    }
+
+
 
 
     private void execCommand(String cmd) {
