@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -49,6 +50,8 @@ public class ScrollingActivity extends AppCompatActivity {
         show_time = (TextView) findViewById(R.id.show_time);
         Button do_show = (Button) findViewById(R.id.do_show);
 
+
+        edit_text.dispatchto
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);

@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private void showShareDialog() {
         BottomSheet sheet = getShareActions("").title("分享到：").limit(R.integer.no_limit).build();
         sheet.show();
+
     }
 
     private BottomSheet.Builder getShareActions(String text) {

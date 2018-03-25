@@ -5,8 +5,7 @@ import android.content.ContentResolver;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Build;
-import android.os.Bundle;
+import android.os.*;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
@@ -27,6 +26,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final int REQUEST_CODE = 1;
 
     private static final int REQUEST_CODE_WRITE_SETTINGS = 2;
+
+    HandlerThread mHandlerThread;
+
+
+    final Handler handler = new Handler(mHandlerThread.getLooper()){
+        @Override
+        public void handleMessage(Message msg) {
+            System.out.println("收到消息");
+
+        }
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

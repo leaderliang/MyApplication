@@ -1,4 +1,4 @@
-package com.example.liangyanqiao.myapplication;
+package com.leaderliang.myapplication;
 
 import org.junit.Test;
 
@@ -14,5 +14,4 @@ public class ExampleUnitTest {
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
     }
-
 }

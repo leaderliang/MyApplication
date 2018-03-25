@@ -17,6 +17,9 @@ import java.util.regex.Pattern;
 
 /**
  * @author liang
+ *
+ * String cmd = "-y -i " + currentInputVideoPath + " -strict -2 -vcodec libx264 -preset ultrafast " +
+ * "-crf 24 -acodec aac -ar 44100 -ac 2 -b:a 96k -s 320x480 -aspect 16:9 " + currentOutputVideoPath;
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -27,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
     private ScrollView mScrollView;
     private Compressor mCompressor;
 
-    private String currentInputVideoPath = "/mnt/sdcard/love.mp4";
-    private String currentOutputVideoPath = "/mnt/sdcard/other.mp4";
+    private String currentInputVideoPath = "/mnt/sdcard/blue.mp4";
+    private String currentOutputVideoPath = "/mnt/sdcard/red.mp4";
     String cmd = "-y -i " + currentInputVideoPath + " -strict -2 -vcodec libx264 -preset ultrafast " +
-            "-crf 24 -acodec aac -ar 44100 -ac 2 -b:a 96k -s 480x320 -aspect 16:9 " + currentOutputVideoPath;
+            "-crf 24 -acodec aac -ar 44100 -ac 2 -b:a 96k -s 320x480 " + currentOutputVideoPath;
 
 //    String cmd = "-i " + currentInputVideoPath + " -vcodec h264 -preset fast -crf 28 -y -acodec libmp3lame -ab 128k " + currentOutputVideoPath;
 
