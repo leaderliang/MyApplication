@@ -1,1 +1,1 @@
-include ':app', ':SinaLogin', ':BottomSheet', ':AndroidPermission', ':zxing', ':Material Design', ':VideoCompress', ':FFmpegAndroid', ':myapplication2', ':TouchEventTest'
+include ':app', ':SinaLogin', ':BottomSheet', ':AndroidPermission', ':zxing', ':Material Design', ':VideoCompress', ':FFmpegAndroid', ':myapplication2', ':TouchEventTest', ':DqdTestDemo', ':statusbarbg'

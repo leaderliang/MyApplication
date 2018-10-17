@@ -51,7 +51,7 @@ public class ScrollingActivity extends AppCompatActivity {
         Button do_show = (Button) findViewById(R.id.do_show);
 
 
-        edit_text.dispatchto
+
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
