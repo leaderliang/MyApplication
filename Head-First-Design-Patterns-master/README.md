@@ -1,4 +1,5 @@
 # Head First Design Patterns (2014 update)
+## 设计模式 demo
 
 I have recently updated all the code for Head First Design Patterns to be compatible
 with Java 8. This new code accompanies an update for the book, released in July, 2014.

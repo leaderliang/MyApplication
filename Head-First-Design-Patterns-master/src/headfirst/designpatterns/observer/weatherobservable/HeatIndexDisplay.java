@@ -10,6 +10,7 @@ public class HeatIndexDisplay implements Observer, DisplayElement {
 		observable.addObserver(this);
 	}
 
+	@Override
 	public void update(Observable observable, Object arg) {
 		if (observable instanceof WeatherData) {
 			WeatherData weatherData = (WeatherData)observable;
