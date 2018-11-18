@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AidlDemo" />
             <option value="$PROJECT_DIR$/AndroidPermission" />
             <option value="$PROJECT_DIR$/BottomSheet" />
             <option value="$PROJECT_DIR$/DqdTestDemo" />
