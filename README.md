@@ -1,5 +1,5 @@
 # MyApplicationDemo
-### AndroidAppDemo 主要记录平时项目开发过程中的一些功能 Demo
+### AndroidAppDemo 主要记录平时项目开发过程中的一些功能实例
 AndroidPermission 主要是针对安卓危险权限和特殊权限写的示例
 
 BottomSheet android 组件实现
