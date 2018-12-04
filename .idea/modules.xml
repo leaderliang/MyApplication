@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AidlDemo/AidlDemo.iml" filepath="$PROJECT_DIR$/AidlDemo/AidlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidDrawView/AndroidDrawView.iml" filepath="$PROJECT_DIR$/AndroidDrawView/AndroidDrawView.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidPermission/AndroidPermission.iml" filepath="$PROJECT_DIR$/AndroidPermission/AndroidPermission.iml" />
       <module fileurl="file://$PROJECT_DIR$/BottomSheet/BottomSheet.iml" filepath="$PROJECT_DIR$/BottomSheet/BottomSheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/DqdTestDemo/DqdTestDemo.iml" filepath="$PROJECT_DIR$/DqdTestDemo/DqdTestDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" filepath="$PROJECT_DIR$/FFmpegAndroid/FFmpegAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/Head-First-Design-Patterns-master/Head-First-Design-Patterns-master.iml" filepath="$PROJECT_DIR$/Head-First-Design-Patterns-master/Head-First-Design-Patterns-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDesignModel/JavaDesignModel.iml" filepath="$PROJECT_DIR$/JavaDesignModel/JavaDesignModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinDemo/KotlinDemo.iml" filepath="$PROJECT_DIR$/KotlinDemo/KotlinDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Material Design/Material Design.iml" filepath="$PROJECT_DIR$/Material Design/Material Design.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinaLogin/SinaLogin.iml" filepath="$PROJECT_DIR$/SinaLogin/SinaLogin.iml" />
@@ -16,7 +18,6 @@
       <module fileurl="file://$PROJECT_DIR$/VideoCompress/VideoCompress.iml" filepath="$PROJECT_DIR$/VideoCompress/VideoCompress.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dimens_sw-master/dimens_sw.iml" filepath="$PROJECT_DIR$/dimens_sw-master/dimens_sw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myapplication2/myapplication2.iml" filepath="$PROJECT_DIR$/myapplication2/myapplication2.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarbg/statusbarbg.iml" filepath="$PROJECT_DIR$/statusbarbg/statusbarbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>

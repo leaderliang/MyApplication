@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AidlDemo" />
+            <option value="$PROJECT_DIR$/AndroidDrawView" />
             <option value="$PROJECT_DIR$/AndroidPermission" />
             <option value="$PROJECT_DIR$/BottomSheet" />
             <option value="$PROJECT_DIR$/DqdTestDemo" />
@@ -18,7 +19,6 @@
             <option value="$PROJECT_DIR$/TouchEventTest" />
             <option value="$PROJECT_DIR$/VideoCompress" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/myapplication2" />
             <option value="$PROJECT_DIR$/statusbarbg" />
             <option value="$PROJECT_DIR$/zxing" />
           </set>

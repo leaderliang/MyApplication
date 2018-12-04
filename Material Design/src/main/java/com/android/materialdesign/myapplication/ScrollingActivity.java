@@ -1,6 +1,7 @@
 package com.android.materialdesign.myapplication;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -49,6 +50,9 @@ public class ScrollingActivity extends AppCompatActivity {
         edit_text = (EditText) findViewById(R.id.edit_text);
         show_time = (TextView) findViewById(R.id.show_time);
         Button do_show = (Button) findViewById(R.id.do_show);
+
+        Handler handler = new Handler();
+        handler.obtainMessage(1,Object.class).sendToTarget();
 
 
 
