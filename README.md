@@ -9,4 +9,6 @@ SinaLogin 是接入的新浪第三方登录操作
 
 zxing [zxing](http://mvnrepository.com/artifact/com.google.zxing/core) 二维码扫描实现, 可配合[草料二维码](http://changba.com/now/userPage.php?s=Iciv_1s2-YI)进行开发
 
-设计模式 demo 整理等
+设计模式 demo 整理
+
+自定义 view，图形位置测量、Xfermode 的使用，坐标等
