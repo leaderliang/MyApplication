@@ -41,15 +41,28 @@ public class test {
 //            }
 //        }, 3, TimeUnit.SECONDS);
 
-        /*线程池*/
-        String s1 = "HelloWorld";
-        String s2 = "Hello"+ new String("World");
-        String s3 = "HelloWorld";
-        System.out.println(s1==s2);
-        System.out.println(s1==s3);
-        System.out.println(s2==s3);
-        System.out.println(s1.equals(s2));
-        System.out.println(s1.equals(s3));
+        /*string*/
+//        String s1 = "HelloWorld";
+//        String s2 = "Hello"+ new String("World");
+//        String s3 = "HelloWorld";
+//        System.out.println(s1==s2);
+//        System.out.println(s1==s3);
+//        System.out.println(s2==s3);
+//        System.out.println(s1.equals(s2));
+//        System.out.println(s1.equals(s3));
+
+//        for (int i = 0; i < 1_00; i++) {
+//            System.out.println(i+"");
+//        }
+
+        // 向上取整
+//        System.out.println(Math.ceil(0.53d));
+        // 向下取整
+//        System.out.println(Math.floor(0.53d));
+
+//        for (int i = 0; i <=  19; i++) {
+//            System.out.println(Math.random() * 19 + 1);
+//        }
 
 
     }

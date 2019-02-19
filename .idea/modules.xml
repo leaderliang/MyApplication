@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/VideoCompress/VideoCompress.iml" filepath="$PROJECT_DIR$/VideoCompress/VideoCompress.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dimens_sw-master/dimens_sw.iml" filepath="$PROJECT_DIR$/dimens_sw-master/dimens_sw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hencoder/hencoder.iml" filepath="$PROJECT_DIR$/hencoder/hencoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/statusbarbg/statusbarbg.iml" filepath="$PROJECT_DIR$/statusbarbg/statusbarbg.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
